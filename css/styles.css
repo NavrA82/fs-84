@@ -1,0 +1,223 @@
+/* змінні */
+
+:root {
+--main-titel-color: #fff;
+--secondary-titel-color: #303030;
+--accent-color: #ff6c00;
+}
+
+body {
+font-size: "Open Sans", sans-serif;
+    
+}
+
+.btn {
+
+}
+
+.titel {
+
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+/* ---------------- Header ------------------------*/
+.header {
+    background-color: blue;
+
+
+}
+.list {
+
+}
+.header-link {
+
+}
+.header-link:hover,
+.header-link:focus {
+#FFFFFF
+
+
+}
+.header-navigat {
+}
+.header-logo {
+}
+.header-list {
+}
+.header-item {
+}
+.header-tel {
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.header-but {
+}
+/* ---------------- Hero ------------------------*/
+
+
+
+/* About section */
+
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-subtitle {
+}
+.about-titel {
+    position: absolute;
+width: 470px;
+height: 98px;
+left: 815px;
+top: 835px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+letter-spacing: 0.05em;
+
+color: #303030;
+
+}
+.about-description {
+font-size: 14px;
+line-height: 1.86;
+
+letter-spacing: 0.02em;
+
+color: #555555;
+}
+.about-description span {
+     font-size: 14px;
+    line-height: 1.67;
+}
+
+.about-btn {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.33;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+
+color: #303030;
+}
+/* ----------------------------  Services and prices section ----------------------- */
+.prices {
+}
+.prices-subtitle {
+}
+.prices-titel {
+}
+.prises-list {
+}
+.prises-titel {
+}
+.prises-titel-text {
+}
+.prises-btn {
+}
+
+/* ------------------------------ Why people come to us section -------------------- */
+
+.people {
+}
+.people-list {
+}
+.list {
+}
+.people-item {
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+
+color: #303030;
+}
+.people-item > span {
+}
+.people-item-text {
+}
+.people-subtitle {
+}
+.people-title {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 1,17;
+letter-spacing: 0.05em;
+
+color: #303030;
+}
+.people-description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #555555;
+}
+/* ------------------------------------ Our barbers section ------------------------*/
+
+.barbers {
+}
+.barbers-subtitle {
+}
+.barbers-title {
+}
+.barbers-list {
+}
+.barbers-item {
+}
+.barbers-item-title {
+}
+.barbers-item-text {
+}
+/* ------------------------------------- Gallery section --------------------------- */
+
+.gallery {
+}
+
+.gallery-subtitle {
+}
+.gallery-list {
+}
+.contact-link {
+
+}
+.gallery-item {
+}
+
+/* -------------------------------------- Contacts section--------------------------- */
+
