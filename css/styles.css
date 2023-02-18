@@ -1,23 +1,43 @@
-/* змінні */
-
+/* ------------------------------------General settings----------------------------------- */
 :root {
---main-titel-color: #fff;
---secondary-titel-color: #303030;
---accent-color: #ff6c00;
+    --main-title-color: #fff;
+    --secondary-title-color: #303030;
+    --accent-color: #ff6c00;
+    --secondary-found: 'Raleway',sans-serif;
 }
-
+/* -----------------------------------Universal classes-------------------------------------- */
 body {
-font-size: "Open Sans", sans-serif;
-    
+font-family: "Open Sans", sans-serif;
 }
-
+/* delete marker */
+.list{
+    list-style: none; 
+}
+/* delete underline */
+.link {
+    text-decoration: none;
+}
 .btn {
-
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    text-align: center;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
-
+.subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
 .titel {
-
-
+    font-family: var(--secondary-found);
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
 }
 .visually-hidden {
     position: absolute;
@@ -26,34 +46,16 @@ font-size: "Open Sans", sans-serif;
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif; */
-
-/* ---------------- Header ------------------------*/
+/* --------------------------------- Header ------------------------------------------*/
 .header {
-    background-color: blue;
-
-
+background-color: #a0a9a6;
 }
-.list {
-
-}
-.header-link {
-
-}
-.header-link:hover,
-.header-link:focus {
-#FFFFFF
-
-
-}
-.header-navigat {
+.header-navigatoin {
 }
 .header-logo {
 }
@@ -61,19 +63,72 @@ font-family: 'Raleway', sans-serif; */
 }
 .header-item {
 }
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+    /* hover and focus effect */
+.header-link:hover,
+.header-link:focus{
+    color: var(--accent-color);
+    /* hover and focus effect */
+}
 .header-tel {
-font-weight: 600;
-font-size: 12px;
-line-height: 1.33;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: #FFFFFF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 .header-but {
+    color: #FFFFFF;
 }
-/* ---------------- Hero ------------------------*/
-
-
+/* ------------------------------------- Hero ------------------------*/
+.hero {
+    background-color: #a0a9a6;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+    transform: rotate(-90deg);
+}
+/* hover and focus effect */
+.hero-link:hover,
+.hero-link:focus{
+color: var(--accent-color);
+}
+/* hover and focus effect */
+.hero-subtitle {
+    color: rgba(157, 164, 189, 0.6);
+}
+.hero-titel {
+    font-family: var(--secondary-found);
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--main-title-color);
+}
+.hero-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+/* .hero-link-foto-title {
+    
+} */
 
 /* About section */
 
@@ -84,125 +139,141 @@ color: #FFFFFF;
 .about-item {
 }
 .about-subtitle {
+    text-transform: uppercase;
+    color: var(--secondary-title-color);
 }
 .about-titel {
-    position: absolute;
-width: 470px;
-height: 98px;
-left: 815px;
-top: 835px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 49px;
-letter-spacing: 0.05em;
-
-color: #303030;
-
+    font-family: var(--secondary-found);
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--secondary-title-color);
 }
 .about-description {
-font-size: 14px;
-line-height: 1.86;
-
-letter-spacing: 0.02em;
-
-color: #555555;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color:#555555;
 }
 .about-description span {
-     font-size: 14px;
+    font-size: 18px;
     line-height: 1.67;
 }
 
 .about-btn {
-font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 1.33;
-letter-spacing: 0.09em;
-text-transform: uppercase;
-
-color: #303030;
+    color: #303030;
 }
 /* ----------------------------  Services and prices section ----------------------- */
 .prices {
+
 }
+
 .prices-subtitle {
-}
-.prices-titel {
-}
-.prises-list {
-}
-.prises-titel {
-}
-.prises-titel-text {
-}
-.prises-btn {
+    color: rgba(157, 164, 189, 0.6);
 }
 
-/* ------------------------------ Why people come to us section -------------------- */
+.prices-title {
+    color: var(--main-title-color);
+}
 
-.people {
-}
-.people-list {
-}
-.list {
-}
-.people-item {
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 600;
-font-size: 11px;
-line-height: 15px;
-text-align: center;
+.prices-list {
 
-color: #303030;
 }
-.people-item > span {
-}
-.people-item-text {
-}
-.people-subtitle {
-}
-.people-title {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 42px;
-line-height: 1,17;
-letter-spacing: 0.05em;
 
-color: #303030;
+
+.prices-item {
+
 }
-.people-description {
-    font-family: 'Open Sans';
-    font-style: normal;
+
+.prices-item-text {
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
-    /* or 167% */
-    
+    line-height: 1.67;
     letter-spacing: 0.02em;
-    
+    color: #9DA4BD;
+}
+
+
+.prices-btn {
+    color: #FFFFFF;
+}
+
+/* -------------------------- Why people come to us section -------------------- */
+
+.people {}
+
+.people-list {}
+
+
+.people-item {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+} 
+.people-item > span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+.people-item-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+    color: #303030;
+}
+
+.people-subtitle {
+    color:  var(--secondary-title-color);
+}
+
+.people-title {
+    color: var(--secondary-title-color);
+}
+
+.people-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
     color: #555555;
 }
+
 /* ------------------------------------ Our barbers section ------------------------*/
 
 .barbers {
 }
 .barbers-subtitle {
+    color: var(--secondary-title-color);
 }
 .barbers-title {
+    color: var(--secondary-title-color);
 }
 .barbers-list {
 }
 .barbers-item {
 }
 .barbers-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-title-color);
 }
 .barbers-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
 }
 /* ------------------------------------- Gallery section --------------------------- */
 
@@ -210,7 +281,7 @@ color: #303030;
 }
 
 .gallery-subtitle {
-}
+    color: var(--secondary-title-color)}
 .gallery-list {
 }
 .contact-link {
@@ -220,4 +291,74 @@ color: #303030;
 }
 
 /* -------------------------------------- Contacts section--------------------------- */
+
+.contact {
+    background-color: #d5dedb;
+}
+.contact-title {
+    color: var(--main-title-color);
+}
+.contact-address {
+    font-style: normal;
+}
+.contact-address span {
+    font-weight: 700;
+}
+.contact-list {}
+
+.contact-item {}
+
+.contact-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.contact-subtitle {
+    color: var(--main-title-color);
+}
+.contact-time {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+/* -------------------------------Boking section---------------------- */
+.booking {
+    background-color: #d5dedb;}
+
+.booking-title {
+    color:  var(--main-title-color);
+}
+
+.booking-btn {}
+
+
+/* ---------------------------------Footer-------------------- */
+
+.footer { 
+    background-color: #d5dedb;
+}
+.footer-copyright {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #9DA4BD;
+}
+
+.footer-list {}
+
+.footer-item {}
+
+.footer-link { 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
 
