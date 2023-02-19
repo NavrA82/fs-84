@@ -178,14 +178,9 @@ color: var(--accent-color);
 }
 
 .prices-list {
-
 }
-
-
 .prices-item {
-
 }
-
 .prices-item-text {
     font-weight: 400;
     font-size: 18px;
@@ -193,19 +188,16 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
     color: #9DA4BD;
 }
-
-
 .prices-btn {
     color: #FFFFFF;
 }
-
 /* -------------------------- Why people come to us section -------------------- */
+.people {
 
-.people {}
+}
+.people-list {
 
-.people-list {}
-
-
+}
 .people-item {
     font-weight: 600;
     font-size: 11px;
@@ -361,4 +353,10 @@ color: var(--accent-color);
     letter-spacing: 0.2em;
     color: #303030;
 }
+/* hover and focus effect */
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color);
+}
 
+/* hover and focus effect */
